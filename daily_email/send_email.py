@@ -2,9 +2,7 @@ import re
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
 from environs import Env
-
 
 env = Env()
 env.read_env()
